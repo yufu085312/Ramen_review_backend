@@ -1,15 +1,20 @@
 {
-  "name": "ramen_review_backend",
-  "version": "1.0.0",
-  "description": "ラーメン屋限定のレビュー評価サイト",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2",
-    "mongoose": "^8.0.3"
-  }
+    "name": "ramen_review_backend",
+    "version": "1.0.0",
+    "description": "ラーメン屋限定のレビュー評価サイト",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.6.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "mongoose": "^8.0.3",
+        "morgan": "^1.10.0"
+    }
 }
