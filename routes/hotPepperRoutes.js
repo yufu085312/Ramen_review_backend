@@ -30,6 +30,8 @@ router.get('/shops', async(req, res) => {
             params: apiParams
         });
 
+        console.log(response.data.results); // レスポンスの詳細情報をログ出力
+
         // レスポンスの処理
         if (response.data.results.error) {
             console.error('エラー詳細:', response.data.results.error);
